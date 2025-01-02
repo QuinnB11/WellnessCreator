@@ -1,0 +1,586 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		010BE9B22CE7C7E000B3566A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 010BE9992CE7C7DD00B3566A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 010BE9A02CE7C7DD00B3566A;
+			remoteInfo = WellnessCreator;
+		};
+		010BE9BC2CE7C7E000B3566A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 010BE9992CE7C7DD00B3566A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 010BE9A02CE7C7DD00B3566A;
+			remoteInfo = WellnessCreator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		010BE9A12CE7C7DD00B3566A /* WellnessCreator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WellnessCreator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		010BE9B12CE7C7E000B3566A /* WellnessCreatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WellnessCreatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		010BE9BB2CE7C7E000B3566A /* WellnessCreatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WellnessCreatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		010BEA0B2CEC4FCC00B3566A /* Exceptions for "WellnessCreator" folder in "WellnessCreator" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 010BE9A02CE7C7DD00B3566A /* WellnessCreator */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		010BE9A32CE7C7DD00B3566A /* WellnessCreator */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				010BEA0B2CEC4FCC00B3566A /* Exceptions for "WellnessCreator" folder in "WellnessCreator" target */,
+			);
+			path = WellnessCreator;
+			sourceTree = "<group>";
+		};
+		010BE9B42CE7C7E000B3566A /* WellnessCreatorTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = WellnessCreatorTests;
+			sourceTree = "<group>";
+		};
+		010BE9BE2CE7C7E000B3566A /* WellnessCreatorUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = WellnessCreatorUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		010BE99E2CE7C7DD00B3566A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		010BE9AE2CE7C7E000B3566A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		010BE9B82CE7C7E000B3566A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		010BE9982CE7C7DD00B3566A = {
+			isa = PBXGroup;
+			children = (
+				010BE9A32CE7C7DD00B3566A /* WellnessCreator */,
+				010BE9B42CE7C7E000B3566A /* WellnessCreatorTests */,
+				010BE9BE2CE7C7E000B3566A /* WellnessCreatorUITests */,
+				010BE9A22CE7C7DD00B3566A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		010BE9A22CE7C7DD00B3566A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				010BE9A12CE7C7DD00B3566A /* WellnessCreator.app */,
+				010BE9B12CE7C7E000B3566A /* WellnessCreatorTests.xctest */,
+				010BE9BB2CE7C7E000B3566A /* WellnessCreatorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		010BE9A02CE7C7DD00B3566A /* WellnessCreator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 010BE9C52CE7C7E000B3566A /* Build configuration list for PBXNativeTarget "WellnessCreator" */;
+			buildPhases = (
+				010BE99D2CE7C7DD00B3566A /* Sources */,
+				010BE99E2CE7C7DD00B3566A /* Frameworks */,
+				010BE99F2CE7C7DD00B3566A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				010BE9A32CE7C7DD00B3566A /* WellnessCreator */,
+			);
+			name = WellnessCreator;
+			packageProductDependencies = (
+			);
+			productName = WellnessCreator;
+			productReference = 010BE9A12CE7C7DD00B3566A /* WellnessCreator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		010BE9B02CE7C7E000B3566A /* WellnessCreatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 010BE9C82CE7C7E000B3566A /* Build configuration list for PBXNativeTarget "WellnessCreatorTests" */;
+			buildPhases = (
+				010BE9AD2CE7C7E000B3566A /* Sources */,
+				010BE9AE2CE7C7E000B3566A /* Frameworks */,
+				010BE9AF2CE7C7E000B3566A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				010BE9B32CE7C7E000B3566A /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				010BE9B42CE7C7E000B3566A /* WellnessCreatorTests */,
+			);
+			name = WellnessCreatorTests;
+			packageProductDependencies = (
+			);
+			productName = WellnessCreatorTests;
+			productReference = 010BE9B12CE7C7E000B3566A /* WellnessCreatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		010BE9BA2CE7C7E000B3566A /* WellnessCreatorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 010BE9CB2CE7C7E000B3566A /* Build configuration list for PBXNativeTarget "WellnessCreatorUITests" */;
+			buildPhases = (
+				010BE9B72CE7C7E000B3566A /* Sources */,
+				010BE9B82CE7C7E000B3566A /* Frameworks */,
+				010BE9B92CE7C7E000B3566A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				010BE9BD2CE7C7E000B3566A /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				010BE9BE2CE7C7E000B3566A /* WellnessCreatorUITests */,
+			);
+			name = WellnessCreatorUITests;
+			packageProductDependencies = (
+			);
+			productName = WellnessCreatorUITests;
+			productReference = 010BE9BB2CE7C7E000B3566A /* WellnessCreatorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		010BE9992CE7C7DD00B3566A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1610;
+				LastUpgradeCheck = 1610;
+				TargetAttributes = {
+					010BE9A02CE7C7DD00B3566A = {
+						CreatedOnToolsVersion = 16.1;
+					};
+					010BE9B02CE7C7E000B3566A = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = 010BE9A02CE7C7DD00B3566A;
+					};
+					010BE9BA2CE7C7E000B3566A = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = 010BE9A02CE7C7DD00B3566A;
+					};
+				};
+			};
+			buildConfigurationList = 010BE99C2CE7C7DD00B3566A /* Build configuration list for PBXProject "WellnessCreator" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 010BE9982CE7C7DD00B3566A;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 010BE9A22CE7C7DD00B3566A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				010BE9A02CE7C7DD00B3566A /* WellnessCreator */,
+				010BE9B02CE7C7E000B3566A /* WellnessCreatorTests */,
+				010BE9BA2CE7C7E000B3566A /* WellnessCreatorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		010BE99F2CE7C7DD00B3566A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		010BE9AF2CE7C7E000B3566A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		010BE9B92CE7C7E000B3566A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		010BE99D2CE7C7DD00B3566A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		010BE9AD2CE7C7E000B3566A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		010BE9B72CE7C7E000B3566A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		010BE9B32CE7C7E000B3566A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 010BE9A02CE7C7DD00B3566A /* WellnessCreator */;
+			targetProxy = 010BE9B22CE7C7E000B3566A /* PBXContainerItemProxy */;
+		};
+		010BE9BD2CE7C7E000B3566A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 010BE9A02CE7C7DD00B3566A /* WellnessCreator */;
+			targetProxy = 010BE9BC2CE7C7E000B3566A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		010BE9C32CE7C7E000B3566A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		010BE9C42CE7C7E000B3566A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		010BE9C62CE7C7E000B3566A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = WellnessCreator/WellnessCreator.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WellnessCreator/Preview Content\"";
+				DEVELOPMENT_TEAM = XMYK8R7B96;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WellnessCreator/Info.plist;
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "We need to use health data to determine wellness progress.";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "We need to update health data for your Health app. ";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "We need to use a microphone to record Wellness Creations. ";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.psu.qdb5021.WellnessCreator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		010BE9C72CE7C7E000B3566A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = WellnessCreator/WellnessCreator.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WellnessCreator/Preview Content\"";
+				DEVELOPMENT_TEAM = XMYK8R7B96;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WellnessCreator/Info.plist;
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "We need to use health data to determine wellness progress.";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "We need to update health data for your Health app. ";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "We need to use a microphone to record Wellness Creations. ";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.psu.qdb5021.WellnessCreator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		010BE9C92CE7C7E000B3566A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XMYK8R7B96;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.psu.qdb5021.WellnessCreatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WellnessCreator.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WellnessCreator";
+			};
+			name = Debug;
+		};
+		010BE9CA2CE7C7E000B3566A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XMYK8R7B96;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.psu.qdb5021.WellnessCreatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WellnessCreator.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WellnessCreator";
+			};
+			name = Release;
+		};
+		010BE9CC2CE7C7E000B3566A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XMYK8R7B96;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.psu.qdb5021.WellnessCreatorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WellnessCreator;
+			};
+			name = Debug;
+		};
+		010BE9CD2CE7C7E000B3566A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XMYK8R7B96;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.psu.qdb5021.WellnessCreatorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WellnessCreator;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		010BE99C2CE7C7DD00B3566A /* Build configuration list for PBXProject "WellnessCreator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				010BE9C32CE7C7E000B3566A /* Debug */,
+				010BE9C42CE7C7E000B3566A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		010BE9C52CE7C7E000B3566A /* Build configuration list for PBXNativeTarget "WellnessCreator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				010BE9C62CE7C7E000B3566A /* Debug */,
+				010BE9C72CE7C7E000B3566A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		010BE9C82CE7C7E000B3566A /* Build configuration list for PBXNativeTarget "WellnessCreatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				010BE9C92CE7C7E000B3566A /* Debug */,
+				010BE9CA2CE7C7E000B3566A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		010BE9CB2CE7C7E000B3566A /* Build configuration list for PBXNativeTarget "WellnessCreatorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				010BE9CC2CE7C7E000B3566A /* Debug */,
+				010BE9CD2CE7C7E000B3566A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 010BE9992CE7C7DD00B3566A /* Project object */;
+}

@@ -1,0 +1,26 @@
+[
+    {
+        "name": "Wellness 1",
+        "strength": 3.0,
+        "numberOfCircles": 5,
+        "completions": 1,
+        "corners": 0,
+        "noiseEnabled": false,
+        "waveEnabled": false,
+        "checkerEnabled": false,
+        "flipHueEnabled": false,
+        "colors": ["#0000FF", "#008000", "#FFFF00", "#FF0000", "#800080"],
+        "xOffsetFactor": 1.0,
+        "xIsEditing": false,
+        "yOffsetFactor": 1.0,
+        "yIsEditing": false,
+        "waveStrength": 1.0,
+        "noiseStrength": 1.0,
+        "checkerboardSize": 10.0,
+        "audioRecording": {
+            "fileURL": "This is a test!",
+            "createdAt": "2024-12-14T10:00:00Z",
+            "isPlaying": false
+        }
+    }
+]
